@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Search table</title>
+  </head>
+  <body>
+
+    <!-- Header Start -->
+    <header class="header text-center m-5 text-uppercase">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Slick Carousel Example</h1>
+                    <p>slick is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more!</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Feature Start -->
+    <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title text-center">
+                            <h2>Our Skills</h2>
+                            <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incidit labore lorem ipsum amet madolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stack">
+                <div class="items slick-current slick-center">
+                    <i class="fas fa-layer-group"></i>
+                    <h1 class="pb-3">Creative Design</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et atque eos amet vel voluptatibus incidunt.</p>  
+                </div>
+                <div class="items">
+                    <i class="fab fa-wordpress"></i>
+                    <h1 class="pb-3">Wordpress Expert</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et atque eos amet vel voluptatibus incidunt.</p>
+                </div>
+                <div class="items">
+                    <i class="fab fa-php"></i>
+                    <h1 class="pb-3">Software Development</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et atque eos amet vel voluptatibus incidunt.</p>
+                </div>
+                <div class="items">
+                    <i class="fas fa-chart-line"></i>
+                    <h1 class="pb-3">Digital Marketing</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et atque eos amet vel voluptatibus incidunt.</p>
+                    <div class="slider"></div>
+                </div>
+            </div>            
+        </section>
+    <!-- Feature End -->
+    <!-- Footer Start -->
+    <footer class="footer text-center m-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>Slick Carousel Example Developed By <a href="https://www.facebook.com/nabedkhan67">Nabed Khan</a></h3>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.stack').slick({
+                centerMode: true,
+                centerPadding: '10px',
+                arrows: false,
+                variableWidth: true,
+                dots: true,
+                swipeToSlide: true,
+                focusOnSelect: true
+            });
+        });
+    </script>
+  </body>
+</html>
